@@ -5,9 +5,9 @@ import os
 
 
 def main():
-    gtpath='/home/bai/bzc/paint/gt'
-    impath='/home/bai/bzc/paint/img'
-    simpath='/home/bai/bzc/paint/simg'
+    gtpath='./gt'
+    impath='./img'
+    simpath='./simg'
     gtfiles=os.listdir(gtpath)
     imfiles=os.listdir(impath)
 
